@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>About-Evolve Programming Institute- Program Everything</title>
+    <link rel="stylesheet" href="/courses/c.html">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<style>
+    .containerbg {
+        /* background-image: url('1.jpg'); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .box1 {
+        border: 2px solid grey;
+        border-radius: 10px;
+        height: 280px;
+        width: 280px;
+        background-color: rgb(201, 217, 231);
+        margin-bottom: 20px;
+        margin-top: 30px;
+        box-shadow: -5px -10px rgb(73, 81, 99), -15px -20px rgb(43, 50, 68);
+
+    }
+
+    .box1 h2 {
+        text-align: center;
+    }
+
+    .box1 p {
+        text-align: justify;
+        padding: 25px;
+    }
+
+    .txt-head h1 {
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+    .txt-info {
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .iop{
+        height: 300px;
+        width: 300px;
+        margin: 25px 25px;
+        border-radius: 260px;
+        transition: all 3s ease-in-out;
+    }
+    .iop:hover{
+        height: 300px;
+        width: 300px;
+        margin: 25px 25px;
+        border-radius: 260px;
+        transform: rotate(360deg);
+    }
+    .inner-txt h1{
+        text-align: center;
+    }
+    .inner-para{
+        padding: 15px 25px;
+        text-align: justify;
+    }
+    #hres{
+        position: relative;
+        left: 33%;
+        width:80px;
+    }
+
+    /* Responsive Design */
+    @media only screen and (max-width:998px){
+       .box1{
+        border: 2px solid grey;
+        border-radius: 10px;
+        height: 350px;
+        width: 200px;
+        background-color: rgb(201, 217, 231);
+        /* margin-bottom: 20px; */
+        /* margin-top: 20px; */
+        margin: 20px 25px;
+       }
+       #hres{
+        position: relative;
+        left: 25%;
+       }
+    }
+</style>
+
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"> <a href="#"><img src="/images.jpg" alt="This is Logo"></a></div>
+            <li><a href="/indexone.html">Home</a></li>
+            <li><a href="/courses.html">Courses</a></li>
+            <li><a href="../stories.html">Stories</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+            <li><a href="../about.html">About</a></li>
+        </ul>
+        <div class="rightnav v-class-resp">
+            <input type="search" name="search" id="search" placeholder="Enter the query">
+            <button class="btn btn-sm"> Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <div class="txt-head">
+        <h1>We are Experience and Expert to Boost Up Your IT Skill</h1>
+        <hr>
+    </div>
+    <div class="containerbg">
+        <div class="box1">
+            <h2>Why Choose us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos exercitationem nulla officiis voluptate ad
+                reiciendis ratione voluptatem ea optio cumque dolorum reprehenderit asperiores dolorem dignissimos
+                veniam perspiciatis deleniti ipsa, laborum nostrum. Iusto, ullam. Veniam quibusdam aut id voluptas ipsam
+            </p>
+        </div>
+        <div class="box1">
+            <h2>We create value</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos exercitationem nulla officiis voluptate ad
+                reiciendis ratione voluptatem ea optio cumque dolorum reprehenderit asperiores dolorem dignissimos
+                veniam perspiciatis deleniti ipsa, laborum nostrum. Iusto, ullam. Veniam quibusdam aut id voluptas ipsam
+            </p>
+        </div>
+        <div class="box1">
+            <h2>Who we are</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos exercitationem nulla officiis voluptate ad
+                reiciendis ratione voluptatem ea optio cumque dolorum reprehenderit asperiores dolorem dignissimos
+                veniam perspiciatis deleniti ipsa, laborum nostrum. Iusto, ullam. Veniam quibusdam aut id voluptas ipsam
+            </p>
+        </div>
+        <div class="box1">
+            <h2>Our Mission</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos exercitationem nulla officiis voluptate ad
+                reiciendis ratione voluptatem ea optio cumque dolorum reprehenderit asperiores dolorem dignissimos
+                veniam perspiciatis deleniti ipsa, laborum nostrum. Iusto, ullam. Veniam quibusdam aut id voluptas ipsam
+            </p>
+        </div>
+    </div>
+    <div class="txt-info">
+        <div class="inner-txt">
+            <img class="iop" src="3.jpg" alt="This is Images">
+        </div>
+        <div class="inner-txt">
+            <hr id="hres">
+            <h1>All IT Courses are here!!</h1> 
+            <p class="inner-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequuntur porro amet rem error? Iste
+                aliquid eligendi accusantium mollitia amet suscipit nihil totam ipsam facilis molestias esse fugit hic
+                odio, dolorum libero delectus quaerat quidem nobis earum? Voluptate commodi enim amet recusandae, ea
+                voluptatibus ullam, beatae repellendus molestiae obcaecati deserunt minima totam sequi ab, officia porro
+                ratione molestias quod cumque a blanditiis hic doloremque. Illo cumque, tempora deserunt dolore, aperiam
+                nulla adipisci impedit deleniti explicabo, corrupti qui nostrum asperiores itaque quos delectus sit
+                veniam blanditiis omnis odit. Voluptate vel expedita voluptates magni quibusdam cum obcaecati numquam,
+                voluptas unde explicabo? Expedita.
+            </p>
+            <p class="inner-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequuntur porro amet rem error? Iste
+                aliquid eligendi accusantium mollitia amet suscipit nihil totam ipsam facilis molestias esse fugit hic
+                odio, dolorum libero delectus quaerat quidem nobis earum? Voluptate commodi enim amet recusandae, ea
+                voluptatibus ullam, beatae repellendus molestiae obcaecati deserunt minima totam sequi ab, officia porro
+                ratione molestias quod cumque a blanditiis hic doloremque. Illo cumque, tempora deserunt dolore, aperiam
+                nulla adipisci impedit deleniti explicabo, corrupti qui nostrum asperiores itaque quos delectus sit
+                veniam blanditiis omnis odit. Voluptate vel expedita voluptates magni quibusdam cum obcaecati numquam,
+                voluptas unde explicabo? Expedita.
+            </p>
+        </div>
+    </div>
+
+    <footer class="background">
+        <p class="text-foot">
+            Copyright &copy; | All Right Reserved | Created by Sachin Prajapati
+        </p>
+    </footer>
+</body>
+
+</html>

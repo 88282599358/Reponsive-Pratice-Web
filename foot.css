@@ -1,0 +1,97 @@
+.widget {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(26, 24, 24);
+}
+
+.foot-wid {
+    margin: 15px 40px;
+    padding: 15px 40px;
+}
+.foot-wid h1{
+    color: grey;
+    font-size: 25px;
+    text-align: center;
+}
+.foot-wid i{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+.social {
+    display: flex;
+    flex-direction: column;
+}
+
+.awe {
+    font-size: 30px;
+    background: none;
+    cursor: pointer;
+    padding: 10px 10px;
+    color: white;
+    
+}
+
+.awe a {
+    color: white;
+    font-size: 20px;
+}
+
+.awe a i{
+    padding: 0px 15px;
+    color: white;
+}
+.foot-wid li{
+    color: white;
+    font-size: 17px;
+    text-align: justify;
+    list-style: none;
+    position: relative;
+    left: 1px;
+}
+
+.cou{
+    color: white;
+    font-size: 40px;
+    text-align: justify;
+    list-style: none;
+    position: relative;
+    left: 1px;
+}
+.cou li{
+   padding: 10px;
+}
+#seld{
+    padding: 10px;
+    font-size: 15px;
+}
+.site li{
+    color: white;
+    font-size: 17px;
+    text-align: justify;
+    list-style: none;
+    position: relative;
+    left: 0px;
+}
+.site {
+    color: white;
+    font-size: 17px;
+    text-align: justify;
+    list-style: none;
+    position: relative;
+    left: 1px;
+}
+.site h2 {
+    color: grey;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.site li{
+    padding: 10px;
+
+}
+
+.cou:hover, a:hover, li:hover{
+    color: grey;
+}
